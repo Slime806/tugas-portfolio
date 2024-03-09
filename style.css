@@ -1,0 +1,154 @@
+*{
+    font-family: "Poppins";
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 20px 100px;
+}
+
+header > h1{
+    margin: 0;
+}
+
+header > ul{
+    display: flex;
+    list-style: none;
+
+    
+}
+
+.navbar-item{
+    margin-left: 20px;
+}
+
+.navbar-item > a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+section{
+    display: flex;
+    gap: 50px;
+    padding: 20px 100px;
+}
+
+.biodata{
+    background-color: rgb(215, 228, 223);    
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profil{
+    display: grid;
+   align-items: center;
+   text-align:center;
+   justify-content: center;
+}
+
+.profil > h1{
+    margin: 8px 0 0 0;
+}
+
+.profil > p{
+    margin: 0;
+}
+
+.profil > img {
+    display:inline-block;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.profil-item{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+}
+
+.profil-item-detail > h3 {
+    margin: 0;
+}
+
+.profil-item-detail > p {
+    margin: 0;
+}
+
+
+footer{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding: 20px 100px 20px 410px;
+    gap: 50px;
+}
+
+.study-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.study-item-satu{
+    background-color:rgb(215, 228, 223) ;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.study-item > h1{
+    margin: 0;
+}
+
+.work-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.work-item > h1{
+    margin: 0;
+}
+
+
+.projek-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.projek-item > h1{
+    margin: 0;
+}
+
+@media (max-width: 767.98px) { 
+    header{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+
+    header > ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .profil{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
